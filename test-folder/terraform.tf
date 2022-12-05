@@ -5,6 +5,13 @@ terraform {
      version = ">= 4.0.0"
    }
  }
+ cloud {
+    organization = "hieutnbk2011"
+
+    workspaces {
+      name = "test-module"
+    }
+  }
 }
 
 provider "aws" {
