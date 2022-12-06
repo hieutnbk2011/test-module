@@ -22,7 +22,7 @@ variable "app_private_subnets" {
 
 variable "public_subnets" {
   description = ""
-  default = ["172.16.100.0/24", "172.16.101.0/24","172.16.102.0/24"]
+  default = ["172.16.100.0/24", "172.16.101.0/24","172.16.102.0/24","172.16.103.0/24"]
 }
 
 variable "db_private_subnet" {
